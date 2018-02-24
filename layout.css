@@ -81,4 +81,20 @@ h2{
 	margin-bottom: 1rem;
 }
 
+footer{
+	display: flex;
+	grid-column:1/-1;
+	grid-row:4/-1;
+	align-content: center;
+	justify-content: center;
+	border: dashed brown;
+}
+
+footer p{
+	
+	align-content: center;
+	justify-content: center;
+
+}
+
 
