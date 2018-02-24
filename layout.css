@@ -28,6 +28,7 @@ header {
 	justify-content: left;
 	margin-left: .2rem;
 	margin-bottom: .2rem;
+	position: fixed;
 }
 .sidebar_1 {
 	display: grid;
@@ -35,6 +36,7 @@ header {
 	grid-column: 1/2;
 	grid-row: 2/3;
 	margin-bottom: 1rem;
+	position: static;
 }
 
 nav ul{
@@ -51,7 +53,7 @@ nav{
 .sidebar_2{
 	display: grid;
 	grid-column: 3/4;
-	grid-row: 1/4;
+	grid-row: 2/4;
 /*	border: dashed magenta;*/	
 }
 
