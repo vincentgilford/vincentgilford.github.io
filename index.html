@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
 	<title>Gilford Stephen Vincent Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="./layout.css">
-	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/style.css">
 </head>
 <body>
 <div class="container_1">
+	<!-- container childer -->
 	<header>
 		<h1>Gilford S Vincent Jr. Portfolio</h1>
-		<nav class="navigation">
+		<button >Navigation Bar</button>
+		<nav id="navigation">
+
 		<ul>
 			<li>	
 			<a href="#link_project">Projects</a>	
@@ -29,51 +32,62 @@
 					<h2>Skills</h2>
 					<p>Java, Spring, Test Driven Development</p>
 			</section>
+	
 	<img id="profile_pic" src="./images/portfolio-linkEDin.png">
 	<section id="link_about_me" class="about_me">
 				<h2>About me</h2>
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button class="trigger">Find Me</button>	
+				<div class="modal">
+			        <div class="modal-content">
+			            <span class="close-button"><!-- &times; --></span>
+			            <p> I am awesome.I am awesome.I am awesome.I am awesome.
+				I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.I am awesome.</p>
+			        </div>
+			    </div>	
 			</section>	
 	</header>
+
+	<!-- container childer -->	
+	<!-- <section class="sidebar_1">
+	grid placed
 		
-	<section class="sidebar_1">
-	<!-- grid placed -->
-			
-			
-	</section>
+	</section> -->
 	<section class="sidebar_2">
 		<h2>Projects</h2>
 			<section id="link_project" class="total_projects">
 				<article class="projects">
 					<h3>Bank</h3>
-					<p>using TDD - an application, re-creating an experience with a bank teller; Accounts created  were put into a collection allowing for deposit, withdrawal, and transfers of currency between accounts </p>
+					<button class="more_information_button" id="bankId">More information</button>
+					<p id="bankProject" class="more_information">using TDD - an application, re-creating an experience with a bank teller; Accounts created  were put into a collection allowing for deposit, withdrawal, and transfers of currency between accounts </p>
 					<img id="bank_pic" src="./images/bankoutput.png">
 					<a href="https://github.com/vincentgilford/bank">Bank</a>
 				</article>
 				<article class="projects">
 					<h3>Virtual Pets...</h3>
-					<p> using TDD - a simulated pet and environment developed to interact with end user, with growing needs for care, adoption, removal and any other plausible actions for a pet shelter such as cleanliness, and happiness.</p>
+					<button class="more_information_button" id="virtualPetsId">More information</button>
+					<p id="virtualPetProject" class="more_information"> using TDD - a simulated pet and environment developed to interact with end user, with growing needs for care, adoption, removal and any other plausible actions for a pet shelter such as cleanliness, and happiness.</p>
 					<a href="https://github.com/vincentgilford/virtual-pet-AMOK">Virtual Pet AMOK</a>
 					<img id="virtualpet_pic" src="./images/virtualpetoutput1.png">
 				</article>				
 				<article class="projects">
 					<h3>Hospital Accounts</h3>
-					<p>hospital system imitation, effectively creating a pseudo accounts for associated employees, ie doctor, nurse, and janitors. The application not only allowed for adding information of employees, but removal as well and searches for certain types of employees.</p>
+					<button  class="more_information_button" id="hospitalId">More information</button>
+					<p id="hospitalProject" class="more_information">hospital system imitation, effectively creating a pseudo accounts for associated employees, ie doctor, nurse, and janitors. The application not only allowed for adding information of employees, but removal as well and searches for certain types of employees.</p>
 					<img id="hospital_pic" src="./images/Hospitaloutput.png">
 
 					<a href="https://github.com/vincentgilford/high-st-hospital">High St Hospital</a>
 				</article>
 			</section>
 	</section>
+	<!-- container childer -->	
 	<footer>
 		<p>Thank you for visiting</p>
 	</footer>
+
 </div>
+<!-- end of container -->
+
+<script src="./src/js/app.js"></script>
 </body>
 </html>
 <!-- end goal is to have a page where parts of the screen are scrolling and others remain statics-->
