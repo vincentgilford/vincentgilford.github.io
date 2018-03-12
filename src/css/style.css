@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+.container{
+
+	background-color: rgb(102, 204, 102);
+}
+
+
 
 #profile_pic{
 	
@@ -20,12 +26,15 @@ nav ul {
 
 #bank_pic{
 	width: 50%;
-	height: 50%;
+	height: 35%;
+	opacity: .2;
+	max-height: 150px;
 }
 
 .projects{
 	border: 5px solid darkgrey;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	web
 }
 
 
